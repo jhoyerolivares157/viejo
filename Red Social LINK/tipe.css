@@ -1,0 +1,65 @@
+/* author: Cyd Stumpel */
+
+  * {
+    font-family: "Anybody";
+    margin: 0;
+  }
+  
+  ::-moz-selection {
+    background: #0e0e0e;
+    color: #bc0505;
+  }
+  
+  ::selection {
+    background: #0e0e0e;
+    color: #bc0505;
+  }
+  
+  h1 {
+    
+    margin-top:200px;
+    text-align: center;
+    filter: url(#distortionFilter);
+    font-size: 60px;
+    color: #0e0e0e;
+    font-variation-settings: "wght" 700;
+  }
+  @media (max-width: 1520px) {
+    h1 {
+      font-size: 90px;
+      margin-top: 500px;
+    }
+  }
+  
+  @media (max-width: 2500px) {
+    #neel {
+      font-size: 90px;
+      margin-top: 550px;
+      padding-top: 350px;
+      
+     
+    }
+  
+    @media (min-width: 2500px) {
+        #neel {
+          font-size: 90px;
+          margin-top: 550px;
+          padding-top: 350px;
+          
+         
+        }
+  }
+  svg {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -9999px;
+    pointer-events: none;
+  }
+  
+ /* Movile */
+
+ 
+  
+ 
+  
